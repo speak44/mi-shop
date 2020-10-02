@@ -1,4 +1,5 @@
 # mi-shop
+# 使用vue全家桶，开发实现小米官网
 
 ## Project setup
 ```
