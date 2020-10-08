@@ -5,15 +5,17 @@
 </template>
 
 <script>
-// import axios from 'axios'
+//  import storage from './storage/index'
 export default {
   name: 'App',
   components: {
   },
-  mounted(){    
-    const url= "/username";
-    this.axios.get(url).then(()=>{
-    })
+  mounted(){ 
+    console.log(this.axios);
+    // console.log(storage.getItem('user'));
+    // storage.setItem('zhangsan',{a:1,b:2})
+    // storage.setItem('wangwu',{a:1,b:2},'user')
+    // storage.clear('zhangsan')
   }
 }
 </script>

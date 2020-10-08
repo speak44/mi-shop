@@ -1,5 +1,6 @@
 <template>
   <div>
+    home页面
     <nav-footer></nav-footer>
     <router-view></router-view>
     <nav-header></nav-header>
